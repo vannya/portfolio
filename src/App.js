@@ -1,26 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Router } from "@reach/router";
+import Header from "./components/Header";
+import Home from "./pages/Home.js";
 import './App.css';
+
+let About = () => <div>About</div>
+let Projects = () => <div>Projects</div>
+let Resume = () => <div>Resume</div>
+let Footer = () => <div>Footer</div>
+const NotFound = () => <p>Sorry, nothing here</p>
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <section>
+        <Header />
+        <Router>
+          <Home path="/" />
+          <About path="about" />
+          <Projects path="projects" />
+          <Resume path="resume" />
+          <NotFound default />
+        </Router>
+        <Footer />
+      </section>
     );
   }
 }
