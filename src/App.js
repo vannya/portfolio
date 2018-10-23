@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Router } from "@reach/router";
-import Header from "./components/Header";
 import Home from "./pages/Home.js";
+import NavBar from "./components/Nav";
 import './App.css';
 
 let About = () => <div>About</div>
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <section>
-        <Header />
+        <NavBar />
         <Router>
           <Home path="/" />
           <About path="about" />
