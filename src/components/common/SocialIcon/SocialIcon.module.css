@@ -1,0 +1,53 @@
+.link {
+  text-decoration: none;
+}
+
+.link:hover .icon {
+  border: 1px solid hotpink;
+}
+
+.link:hover .text {
+  color: hotpink;
+}
+
+.link:hover .icon>i {
+  color: hotpink;
+}
+
+.box {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 1rem;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #f7f7f2;
+  border-radius: 50%;
+  background: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon > i {
+  color: #f7f7f2;
+}
+
+.text {
+  margin-left: 1em;
+  letter-spacing: 1px;
+  line-height: 36px;
+  font-size: 14px;
+  text-align: center;
+  color: #f7f7f2;
+}
+
+@media screen and (max-width: 767px) {
+  .text {
+    display: none;
+  }
+}
