@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Router } from "@reach/router";
-import Home from "./pages/Home.js";
-import NavBar from "./components/Nav";
+import Home from "pages/Home.js";
+import Footer from "components/Footer";
+import NavBar from "components/Nav";
 import './App.css';
 
 let About = () => <div>About</div>
 let Projects = () => <div>Projects</div>
 let Resume = () => <div>Resume</div>
-let Footer = () => <div>Footer</div>
 const NotFound = () => <p>Sorry, nothing here</p>
 
 class App extends Component {

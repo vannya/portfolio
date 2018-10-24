@@ -12,5 +12,6 @@
   position: relative;
   height: 100%;
 	width: 100%;
-	background-color: rgba(42, 23, 87, 0.3);
+	/* background-color:rgb(8, 72, 135); */
+	background-color: rgba(8, 72, 135, 0.3);
 }

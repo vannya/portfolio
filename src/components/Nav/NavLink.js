@@ -15,7 +15,7 @@ const NavLink = ({ menuType, ...rest }) => {
         } else {
           return {
             style: {
-              backgroundColor: isCurrent ? "#143c1d" : "transparent"
+              backgroundColor: isCurrent ? "#3798BF" : "transparent"
             }
           };
         }
