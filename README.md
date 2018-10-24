@@ -1,4 +1,4 @@
-# Van's Updated Portfolio Site
+# Van's Updated Portfolio Site [![Build Status](https://travis-ci.com/vannya/portfolio.svg?branch=master)](https://travis-ci.com/vannya/portfolio)
 
 ### It's time for an update to end out 2018.
 
