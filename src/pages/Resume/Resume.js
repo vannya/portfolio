@@ -4,7 +4,10 @@ import styles from "./Resume.module.css";
   state = {  }
   render() {
     return (
-      <section className={styles.resume}>Resume</section>
+      <section className={styles.resume}>
+        <h1>Resume</h1>
+        <h2>Coming Soon.</h2>
+      </section>
     );
   }
 }
