@@ -6,7 +6,8 @@ import styles from "./Resume.module.css";
     return (
       <section className={styles.resume}>
         <h1>Resume</h1>
-        <h2>Coming Soon.</h2>
+        <h2>Currently Updating Site.</h2>
+        <h2>Check back soon!</h2>
       </section>
     );
   }

@@ -1,6 +1,5 @@
 .projects {
   position: relative;
-  height: 100vh;
   background: #0d1321;
   display: flex;
   flex-direction: column;

@@ -15,7 +15,7 @@ const NotFound = () => <p>Sorry, nothing here</p>;
 class App extends Component {
   render() {
     return (
-      <section>
+      <section className="app">
         <NavBar />
         <Router>
           <Home path="/" />

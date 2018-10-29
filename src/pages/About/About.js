@@ -10,6 +10,7 @@ class About extends Component {
         <section className={styles.center}>
           <section className={styles.images}>
             <img src={rocks} alt="Van Tabbert" align="left" />
+            <p>Currently Updating Site.  Check back soon!</p>
             <p>Who Am I?</p>
             <p>What am I doing currently?</p>
             <p>What are my interest outside development?</p>
