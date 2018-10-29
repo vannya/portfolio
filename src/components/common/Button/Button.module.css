@@ -1,0 +1,40 @@
+.btn {
+  padding: 1rem;
+  color: #f7f7f2;
+  font-size: 1.6rem;
+  border-radius: 8px;
+  background-color: #3798bf;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #084887;
+}
+
+.btnColor {
+  padding: 0.25em 1em;
+  background-color: #084887;
+  color: #f7f7f2;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.btnColor:hover,
+.btnColor:focus {
+  background-color: #3798bf;
+}
+
+.submitBtn {
+  padding: 0.25rem 1rem;
+  background-color: #084887;
+  color: #f7f7f2;
+  border-radius: 8px;
+  border: none;
+}
+
+.submitBtn:hover,
+.submitBtn:focus {
+  background-color: #f7f7f2;
+}
