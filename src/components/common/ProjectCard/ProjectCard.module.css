@@ -1,0 +1,49 @@
+.card {
+  margin: 2rem 0;
+  border: 1px solid #f7f7f2;
+}
+
+.imageBox {
+  position: relative;
+  height: 180px;
+  width: 350px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image {
+  width: 355px;
+  height: 180px;
+  object-fit: cover;
+  object-position: top;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.image:hover {
+  transform: scale(1.2);
+}
+
+.caption {
+  padding: 0.5rem 0;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #f7f7f2;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    margin: 0.4rem 0;
+  }
+
+  .imageBox {
+    height: 120px;
+    width: 233px;
+  }
+  .image {
+    height: 120px;
+    width: 236px;
+  }
+}
