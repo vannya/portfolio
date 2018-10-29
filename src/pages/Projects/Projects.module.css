@@ -21,8 +21,20 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 2rem 0;
+  animation: slideInBottom 0.75s ease both;
 }
 
 .portRow > a {
   text-decoration: none;
+}
+
+@keyframes slideInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
