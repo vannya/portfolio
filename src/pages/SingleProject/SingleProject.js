@@ -5,8 +5,8 @@ import styles from "./SingleProject.module.css";
 class SingleProject extends Component {
   render() {
     const { projects, projectID } = this.props;
-    const { name, img, description, livelink, github } = projects[projectID];
-    const image = require(`assets/projects/${img}`);
+    const { name, description, livelink, github, fullimg } = projects[projectID];
+    const image = require(`assets/projects/${fullimg}`);
     return (
       <section className={styles.singleProject}>
         <h1>{name}</h1>
@@ -15,12 +15,12 @@ class SingleProject extends Component {
           <img src={image} alt={name} />
         </section>
         <section className={styles.links}>
-          <a href={livelink}>
+          {livelink && <a href={livelink}>
             <Button text="Live Demo" />
-          </a>
-          <a href={github}>
+          </a>}
+          {github && <a href={github}>
             <Button text="View Code" />
-          </a>
+          </a>}
         </section>
       </section>
     );

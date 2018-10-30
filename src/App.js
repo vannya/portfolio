@@ -7,7 +7,9 @@ import Resume from "pages/Resume";
 import SingleProject from "pages/SingleProject";
 import Footer from "components/Footer";
 import NavBar from "components/Nav";
-import * as projects from "api/PortfolioData.js";
+import * as react from "api/ReactData.js";
+import * as wordpress from "api/WordPressData.js";
+import * as reactnative from "api/ReactNativeData.js";
 import "./App.css";
 
 const NotFound = () => <p>Sorry, nothing here</p>;
@@ -21,7 +23,9 @@ class App extends Component {
           <Home path="/" />
           <About path="about" />
           <Projects path="projects" />
-          <SingleProject path="projects/:projectID" projects={projects} />
+          <SingleProject path="projects/react/:projectID" projects={react} type="react" />
+          <SingleProject path="projects/wordpress/:projectID" projects={wordpress} type="wordpress" />
+          <SingleProject path="projects/reactnative/:projectID" projects={reactnative} type="reactnative" />
           <Resume path="resume" />
           <NotFound default />
         </Router>

@@ -15,12 +15,6 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 767px) {
-  .about {
-    margin: 0;
-  }
-}
-
 .about > p {
   max-width: 1200px;
   padding: 1rem 4rem;
@@ -50,6 +44,25 @@
   margin: 1.5rem 0.75rem;
   color: #f7f7f2;
   animation: slideInRight 0.75s ease both;
+}
+.images > p > a{
+  color: #3798bf;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .about {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 525px) {
+  .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @keyframes slideInRight {

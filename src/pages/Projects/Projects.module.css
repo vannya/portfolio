@@ -1,6 +1,7 @@
 .projects {
   position: relative;
   background: #0d1321;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -14,13 +15,46 @@
   margin-bottom: 0;
 }
 
+.toggle {
+  width: 100%;
+  max-width: 1180px;
+  border-bottom: 1px solid #f7f7f2;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+.button {
+  padding: 0.5em 1em;
+  background: #084887;
+  font-size: 1.2em;
+  border: 1px solid #f7f7f2;
+  border-bottom: none;
+  cursor: pointer;
+  color: #f7f7f2;
+}
+.button:hover, .button:focus {
+  background: #3798bf;
+}
+.activeButton {
+  padding: 0.5em 1em;
+  background: #3798bf;
+  font-size: 1.2em;
+  border: 1px solid #f7f7f2;
+  border-bottom: none;
+  cursor: pointer;
+  color: #f7f7f2;
+}
+
 .portRow {
+  width: 100%;
   max-width: 1180px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
   animation: slideInBottom 0.75s ease both;
+  border: 1px solid #f7f7f2;
+  border-top: none;
 }
 
 .portRow > a {
