@@ -1,22 +1,216 @@
 .resume {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   background: #0d1321;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding-bottom: 3em;
 }
-
 .resume > h1 {
   color: #f7f7f2;
   font-size: 3em;
-  margin-top: 3em;
-  margin-bottom: 0;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
-.resume > h2 {
-  color: #f7f7f2;
+.resumeDownload {
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: 1em;
+}
+.resumeDownload > a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #fff;
+}
+.resumeDownload > a:hover,
+.resumeDownload > a:focus {
+  background-color: #3f97bd;
+  color: #fff;
+}
+
+.resumeWrapper {
+  background: #f7f7f2;
+  max-width: 1024px;
+  margin: 2em 8em;
+}
+
+.resumeHeader {
+  display: flex;
+  border-bottom: 1px solid #3f97bd;
+  background-color: #e6e6e6;
+}
+
+.resumeHeaderLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.resumeHeaderLeft > img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: 3em;
+  border-radius: 100%;
+}
+
+.resumeHeaderRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5em;
+  width: 70%;
+}
+
+.resumeHeaderRight > h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.resumeHeaderRight > h2 {
+  font-size: 1.1em;
+  letter-spacing: 3px;
+
+}
+
+.resumeBody {
+  display: flex;
+}
+.resumeBodyLeft {
+  padding: 1em 2em;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.resumeContactGroupTop {
+  margin-bottom: 2em;
+}
+
+.resumeBodyRight {
+  padding: 1em 3em;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid #3f97bd;
+}
+.resumeSectionBottomSpace {
+  padding-bottom: 1em;
+}
+
+.resumeSubheader {
+  margin: 1em 0;
   font-size: 1.5em;
-  margin-top: 1em;
-  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.resumeSubheaderUnderline {
+  content: "";
+  width: 80px;
+  border-bottom: 3px solid #3f97bd;
+  margin: 1em 0;
+}
+
+.resumeGroup {
+  position: relative;
+  padding-bottom: 0em;
+}
+
+.resumeText {
+  max-width: 600px;
+}
+.resumeTextBottomSpace {
+  padding-bottom: 1em;
+}
+
+.resumeDate {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.resumeTitle {
+  font-weight: 700;
+}
+
+.resumePosition {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.resumeLocation {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.resumeLink {
+  color: #3f97bd;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 1180px) {
+  .resume-text.resume-date {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .resume-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume-wrapper {
+    margin: 2em 6em;
+  }
+  .resume-header-left {
+    display: none;
+  }
+  .resume-header-right {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+  }
+  .resume-body-left {
+    width: 100%;
+  }
+  .resume-body-right {
+    border-left: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .resume-wrapper {
+    margin: 2em 4em;
+  }
+}
+@media screen and (max-width: 550px) {
+  .resume-wrapper {
+    margin: 2em 0;
+  }
+  .resume-header-right {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+  }
+  .resume-h1 {
+    font-size: 2em;
+  }
+  .resume-h2 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .resume-h1 {
+    font-size: 1.5em;
+  }
+  .resume-h2 {
+    font-size: 0.9em;
+  }
 }
