@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding-bottom: 5em;
 }
 
 .projects > h1 {
@@ -69,5 +70,13 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .toggle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }

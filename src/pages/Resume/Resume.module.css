@@ -154,63 +154,62 @@
 
 
 @media screen and (max-width: 1180px) {
-  .resume-text.resume-date {
+  .resumeDate {
     position: relative;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .resume-body {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .resumeBody {
+    display: block;
   }
-  .resume-wrapper {
+  .resumeWrapper {
     margin: 2em 6em;
   }
-  .resume-header-left {
+  .resumeHeaderLeft {
     display: none;
   }
-  .resume-header-right {
+  .resumeHeaderRight {
     width: 100%;
     padding: 2em;
     text-align: center;
   }
-  .resume-body-left {
-    width: 100%;
+  .resumeBodyLeft {
+    width: unset;
   }
-  .resume-body-right {
+  .resumeBodyRight {
+    padding: 1em 2em;
     border-left: none;
-    width: 100%;
+    width: unset;
   }
 }
 @media screen and (max-width: 768px) {
-  .resume-wrapper {
+  .resumeWrapper {
     margin: 2em 4em;
   }
 }
 @media screen and (max-width: 550px) {
-  .resume-wrapper {
+  .resumeWrapper {
     margin: 2em 0;
   }
-  .resume-header-right {
+  .resumeHeaderRight {
     width: 100%;
     padding: 1em;
     text-align: center;
   }
-  .resume-h1 {
+  .resume > h1 {
     font-size: 2em;
   }
-  .resume-h2 {
+  .resume > h2 {
     font-size: 1em;
   }
 }
 
 @media screen and (max-width: 375px) {
-  .resume-h1 {
+  .resume > h1 {
     font-size: 1.5em;
   }
-  .resume-h2 {
+  .resume > h2 {
     font-size: 0.9em;
   }
 }

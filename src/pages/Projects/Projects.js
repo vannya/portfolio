@@ -4,7 +4,7 @@ import ProjectCard from "components/common/ProjectCard";
 import styles from "./Projects.module.css";
 import * as react from "api/ReactData.js";
 import * as wordpress from "api/WordPressData.js";
-import * as reactnative from "api/ReactNativeData.js";
+// import * as reactnative from "api/ReactNativeData.js";
 
 class Projects extends Component {
   state = {
@@ -34,7 +34,7 @@ class Projects extends Component {
         <section className={styles.toggle}>
           <button className={type === "react" ? styles.activeButton : styles.button} onClick={() => this.setState({activeList: react, type: "react"})}>React Projects</button>
           <button className={type === "wordpress" ? styles.activeButton : styles.button} onClick={() => this.setState({activeList: wordpress, type: "wordpress"})}>WordPress/php Projects</button>
-          <button className={type === "reactnative" ? styles.activeButton : styles.button} onClick={() => this.setState({activeList: reactnative, type: "reactnative"})}>React Native Projects</button>
+{/**          <button className={type === "reactnative" ? styles.activeButton : styles.button} onClick={() => this.setState({activeList: reactnative, type: "reactnative"})}>React Native Projects</button>*/}
         </section>
         <section className={styles.portRow}>
           {this.renderApps()}
