@@ -30,8 +30,8 @@ class Resume extends Component {
                 <div className={styles.resumeSubheaderUnderline} />
                 <div className={styles.resumeText}>
                   Full stack web and mobile application developer with
-                  experience using modern JavaScript libraries and native
-                  Android development. Analytical problem solver with the
+                  experience using modern JavaScript libraries and cloud 
+                  integration. Analytical problem solver with the
                   ability to quickly learn new technologies and languages.
                   Skilled multitasker comfortable working within a team and
                   independently. Enthusiastic mentor motivated to guide other
@@ -101,12 +101,13 @@ class Resume extends Component {
                 <div className={styles.resumeSectionBottomSpace}>
                   <strong>Strong:</strong> ReactJS, React Native, JavaScript,
                   HTML5, CSS3, ES6, Redux, React Router V4, Reach Router,
-                  Node.js, Express, Sass, Wordpress, Git/Version Control,
-                  Photoshop, InDesign.
+                  Node.js, Express, Sass, WordPress, Git/Version Control,
+                  Photoshop, InDesign
                 </div>
                 <div className={styles.resumeText}>
-                  <strong>Knowledgable:</strong> Electron, SQL, MongoDB,
-                  Webpack, GraphQL, Android, php, Java, C++, Illustrator
+                  <strong>Knowledgable:</strong> Electron, GraphQL, NoSQL, SQL,
+                  Webpack, Android, php, Java, C++, Sketch, Illustrator, Azure, 
+                  Azure functions
                 </div>
               </div>
               <div className={styles.resumeSection}>
@@ -145,6 +146,11 @@ class Resume extends Component {
                 <div className={styles.resumeSubheader}>VOLUNTEER</div>
                 <div className={styles.resumeSubheaderUnderline} />
                 <div className={styles.resumeGroup}>
+                  <div className={styles.resumeTitle}>Mew Cat Rescue</div>
+                  <div className={styles.resumeDate}>Feb 2019 - present</div>
+                  <div className={styles.resumeText}>Developer and Designer</div>
+                </div>
+                <div className={styles.resumeGroup}>
                   <div className={styles.resumeTitle}>Mercy House</div>
                   <div className={styles.resumeDate}>Aug 2014 - Oct 2017</div>
                   <div className={styles.resumeText}>Photographer</div>
@@ -170,22 +176,23 @@ class Resume extends Component {
                   <div className={styles.resumeDate}>May 2018 - present</div>
                   <ul>
                     <li>
-                      Develop internal applications using both React and React
-                      Native frameworks.
+                      Lead Frontend Developer of nine person team building custom ERP system 
+                      integrating with legacy and third party services saving company $1 million 
+                      in operating costs in Q1 2019 alone.
                     </li>
                     <li>
-                      Partnering with development team members across the globe
-                      to create applications that help Associates in their daily
-                      work environments.
+                      Lead Developer and Systems Architect for React UI Library suite encompassing designs
+                      for structural, presentational, chatbot and feedback components with dynamically 
+                      rendered web documentation.
                     </li>
                     <li>
-                      Supporting other teams’ development projects as needed.
+                      Support other teams’ development projects as needed.
                       I.e. project architecture mapping, specific feature
                       development and application optimization.
                     </li>
                     <li>
-                      Mentoring junior developers with 1:1 React/React Native
-                      teaching sessions and career/ goal planning.
+                      Mentor 4 junior developers and 1 junior designer with 1:1 React/React Native
+                      teaching sessions and/or careergoal planning.
                     </li>
                   </ul>
                 </div>
@@ -201,7 +208,7 @@ class Resume extends Component {
                     <li>
                       Partnering with nonprofits and local businesses to create
                       websites and mobile applications using WordPress (JS/PHP),
-                      ReactJS, React Native and Native Android.
+                      ReactJS and React Native.
                     </li>
                     <li>
                       Focusing on reaching customers, donors, and recipients
@@ -249,8 +256,17 @@ class Resume extends Component {
                   >
                     Designsteins
                   </a>
-                  : Design company site using React, routing and map
-                  integration.
+                  : Design company custom WP theme built with php and JS.
+                </div>
+                <div className={styles.resumeText}>
+                  <a
+                    className={styles.resumeLink}
+                    href="http://iamsogal.com/"
+                  >
+                    IAmSoGal
+                  </a>
+                  : Flexible WordPress custom theme for international venture capital
+                  firm.
                 </div>
                 <div className={styles.resumeText}>
                   <a
@@ -321,6 +337,20 @@ class Resume extends Component {
               <div className="resume-education">
                 <div className={styles.resumeSubheader}>EDUCATION</div>
                 <div className={styles.resumeSubheaderUnderline} />
+                <div className={styles.resumeGroup}>
+                  <div className={styles.resumeTitle}>
+                    Bachelors of Science, Software Development
+                  </div>
+                  <div className={styles.resumeTitle}>
+                    Western Governors University
+                  </div>
+                  <div className={styles.resumeDate}>Expected Sept 2020</div>
+                  <ul>
+                    <li>
+                      Java, JavaScript, Mobile Apps, SQL, UI and UX.
+                    </li>
+                  </ul>
+                </div>
                 <div className={styles.resumeGroup}>
                   <div className={styles.resumeTitle}>
                     Associates of Applied Science, Software Development

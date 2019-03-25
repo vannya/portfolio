@@ -11,10 +11,10 @@ module.exports = {
   },
   designsteins: {
     pagename: "designsteins",
-    name: "Designsteins",
+    name: "Designsteins 2018",
     description:
-      "Design company website developed with ReactJS, React Router V4, React Slick Carousel and React Google Maps. Responsible for full development-designed by Designsteins.com.",
-    livelink: "https://designsteins.com",
+      "Design company website developed with ReactJS, React Router V4, React Slick Carousel and React Google Maps. Responsible for full development-designed by Designsteins.com. Rebuilt in 2019 by myself as a WordPress theme.",
+    livelink: null,
     github: null,
     img: "thumb-designsteins.png",
     fullimg: "website-designsteins.png"

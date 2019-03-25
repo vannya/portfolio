@@ -1,4 +1,24 @@
 module.exports = {
+  designsteins2019: {
+    pagename: "designsteins2019",
+    name: "Designsteins.com",
+    description:
+      "Design company website developed using php, jQuery and HTML5/CSS3. Designed by the company and developed by myself.",
+    livelink: "https://designsteins.com",
+    github: null,
+    img: "thumb-designsteins-2019.png",
+    fullimg: "website-designsteins-2019.png"
+  },
+  iamsogal: {
+    pagename: "iamsogal",
+    name: "IAmSoGal.com",
+    description:
+      "A flexible WordPress based website for a venture capital firm investing in early stage startups. Developed using php, jQuery and HTML5/CSS3 with 15 custom widgets.",
+    livelink: "https://iamsogal.com",
+    github: null,
+    img: "thumb-sogal.png",
+    fullimg: "website-sogal.png"
+  },
   tuvototuidioma: {
     pagename: "tuvototuidioma",
     name: "TuVotoTuIdioma",
@@ -28,15 +48,5 @@ module.exports = {
     github: null,
     img: "thumb-togetherwevote.png",
     fullimg: "website-togetherwevote.jpg"
-  },
-  currentsite: {
-    pagename: "current",
-    name: "Placeholder for current site",
-    description:
-      "Placeholder for the current WP site I am developing for a client. Placeholder images are not representative of site.",
-    livelink: null,
-    github: null,
-    img: "thumb-vannya-me.png",
-    fullimg: "websie-vannya-me.png"
-  },
+  }
 };
