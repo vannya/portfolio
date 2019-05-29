@@ -1,7 +1,7 @@
 .home {
   position: relative;
   height: 100vh;
-  background: url("assets/computerdark.jpg") no-repeat center center fixed;
+  background: url('../../assets/computerdark.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,11 +11,11 @@
 .homeOverlay {
   position: relative;
   height: 100%;
-	width: 100%;
-	background-color: rgba(8, 72, 135, 0.3);
+  width: 100%;
+  background-color: rgba(8, 72, 135, 0.3);
 }
 
-.typingWrapper{
+.typingWrapper {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -23,20 +23,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-	text-align: center;
-	color: #f7f7f2;
+  text-align: center;
+  color: #f7f7f2;
 }
 
 .headerIntro {
-	margin: 0 auto;
-	padding: 0;
-	font-size: 1.8rem;
-	margin-bottom: 1rem;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 .headerName {
-	font-size: 4rem;
-	font-weight: 700;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 .MyTypist {
@@ -44,16 +44,16 @@
   font-size: 1.8em;
 }
 
-.headerTypewriter{
-	margin: 0 auto;
-	margin-top: 2em;
-	border-right: 2px solid rgba(247, 247, 242, 0.75);
-	text-align: center;
-	font-size: 1.8rem;
-	white-space: nowrap;
+.headerTypewriter {
+  margin: 0 auto;
+  margin-top: 2em;
+  border-right: 2px solid rgba(247, 247, 242, 0.75);
+  text-align: center;
+  font-size: 1.8rem;
+  white-space: nowrap;
   overflow: hidden;
   animation: typewriter 4s steps(38) 1s 1 normal both,
-            blink-caret 1s step-end infinite;
+    blink-caret 1s step-end infinite;
 }
 
 @media screen and (max-width: 767px) {
@@ -74,12 +74,21 @@
   }
 }
 
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 20em}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20em;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #3798bf; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #3798bf;
+  }
 }

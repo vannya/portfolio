@@ -1,12 +1,22 @@
-import React from "react";
-import styles from "./Footer.module.css";
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './Footer.module.css';
 
-const Footer = () => {
+// Footer
+const Footer = ({ children }) => {
   return (
-    <div className={styles.footer}>
-      <div className={styles.copyright}>©2018 - Van Tabbert. All Rights Reserved.</div>
-    </div>
+    <section className={styles.footer}>
+      <div className={styles.copyright}>{children}</div>
+    </section>
   );
 };
 
 export default Footer;
+
+Footer.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object,
+    PropTypes.node
+  ]).isRequired
+};

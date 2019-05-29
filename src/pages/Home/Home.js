@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import styles from "./Home.module.css";
-import Typist from "react-typist";
+import React, { Component } from 'react';
+import styles from './Home.module.css';
+import Typist from 'react-typist';
 
 class Home extends Component {
   state = {};
@@ -15,7 +15,7 @@ class Home extends Component {
             <section className={styles.headerIntro}>HELLO, MY NAME IS</section>
             <section className={styles.headerName}>VAN</section>
             <section className={styles.headerName}>TABBERT</section>
-            <Typist className={styles.MyTypist} cursor={{hideWhenDone: true}}>
+            <Typist className={styles.MyTypist} cursor={{ hideWhenDone: true }}>
               <Typist.Delay ms={2000} />
               <span className={styles.typedWords}>I am a Web Developer.</span>
               <Typist.Backspace count={14} delay={1200} />
@@ -33,7 +33,7 @@ class Home extends Component {
               <Typist.Backspace count={15} delay={1200} />
               <Typist.Delay ms={1000} />
               <span className={styles.typedWords}>Developer.</span>
-              </Typist>
+            </Typist>
           </section>
         </section>
       </section>
