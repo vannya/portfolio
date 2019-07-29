@@ -1,1 +1,1 @@
-export {default} from "./ToggleOverlay";
+export { default } from './ToggleOverlay';

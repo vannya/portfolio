@@ -1,48 +1,38 @@
-import React, { Component } from 'react';
-import styles from './Home.module.css';
+import React from 'react';
 import Typist from 'react-typist';
+import styles from './Home.module.css';
 
-class Home extends Component {
-  state = {};
-
-  renderTypewriter = () => {};
-
-  render() {
-    return (
-      <section className={styles.home}>
-        <section className={styles.homeOverlay}>
-          <section className={styles.typingWrapper}>
-            <section className={styles.headerIntro}>HELLO, MY NAME IS</section>
-            <section className={styles.headerName}>VAN</section>
-            <section className={styles.headerName}>TABBERT</section>
-            <Typist className={styles.MyTypist} cursor={{ hideWhenDone: true }}>
-              <Typist.Delay ms={2000} />
-              <span className={styles.typedWords}>I am a Web Developer.</span>
-              <Typist.Backspace count={14} delay={1200} />
-              <Typist.Delay ms={1300} />
-              <span className={styles.typedWords}>Mobile Developer.</span>
-              <Typist.Backspace count={17} delay={1200} />
-              <Typist.Delay ms={1200} />
-              <span className={styles.typedWords}>Minimalist.</span>
-              <Typist.Backspace count={11} delay={1200} />
-              <Typist.Delay ms={1500} />
-              <span className={styles.typedWords}>Number Cruncher.</span>
-              <Typist.Backspace count={16} delay={1200} />
-              <Typist.Delay ms={1100} />
-              <span className={styles.typedWords}>Secret Mermaid.</span>
-              <Typist.Backspace count={15} delay={1200} />
-              <Typist.Delay ms={1000} />
-              <span className={styles.typedWords}>Developer.</span>
-            </Typist>
-          </section>
+const Home = () => {
+  return (
+    <section className={styles.home}>
+      <div className={styles.homeOverlay}>
+        <section className={styles.typingWrapper}>
+          <div className={styles.headerIntro}>HELLO, MY NAME IS</div>
+          <div className={styles.headerName}>VAN</div>
+          <div className={styles.headerName}>TABBERT</div>
+          <Typist className={styles.MyTypist} cursor={{ hideWhenDone: true }}>
+            <Typist.Delay ms={2000} />
+            <span className={styles.typedWords}>I am a Web Developer.</span>
+            <Typist.Backspace count={14} delay={1200} />
+            <Typist.Delay ms={1300} />
+            <span className={styles.typedWords}>Mobile Developer.</span>
+            <Typist.Backspace count={17} delay={1200} />
+            <Typist.Delay ms={1200} />
+            <span className={styles.typedWords}>Minimalist.</span>
+            <Typist.Backspace count={11} delay={1200} />
+            <Typist.Delay ms={1500} />
+            <span className={styles.typedWords}>Number Cruncher.</span>
+            <Typist.Backspace count={16} delay={1200} />
+            <Typist.Delay ms={1100} />
+            <span className={styles.typedWords}>Secret Mermaid.</span>
+            <Typist.Backspace count={15} delay={1200} />
+            <Typist.Delay ms={1000} />
+            <span className={styles.typedWords}>Developer.</span>
+          </Typist>
         </section>
-      </section>
-    );
-  }
-}
+      </div>
+    </section>
+  );
+};
 
 export default Home;
-
-// <section className={styles.headerTypewriter}>
-//               I'M A MOBILE AND WEB APP DEVELOPER.
-//             </section>

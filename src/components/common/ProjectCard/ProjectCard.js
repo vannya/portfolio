@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./ProjectCard.module.css";
+import React from 'react';
+import styles from './ProjectCard.module.css';
 
 const Card = ({ title, image }) => {
   return (

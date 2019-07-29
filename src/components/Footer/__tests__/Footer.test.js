@@ -11,6 +11,7 @@ describe('Footer', () => {
       children: 'MockText'
     };
   });
+
   // snapshot
   it('should match snapshot', () => {
     const tree = renderer.create(<Footer {...props} />).toJSON();

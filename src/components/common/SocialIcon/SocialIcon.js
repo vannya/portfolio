@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./SocialIcon.module.css";
+import React from 'react';
+import styles from './SocialIcon.module.css';
 
 const SocialIcon = ({ icon, text, pathname }) => {
   return (

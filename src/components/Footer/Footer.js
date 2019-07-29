@@ -14,9 +14,5 @@ const Footer = ({ children }) => {
 export default Footer;
 
 Footer.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.object,
-    PropTypes.node
-  ]).isRequired
+  children: PropTypes.node.isRequired
 };

@@ -1,11 +1,11 @@
-import React from "react";
-import styles from "./Button.module.css";
+import React from 'react';
+import styles from './Button.module.css';
 
 const Button = ({ coloration, text, onClick, type }) => {
   let buttonColorType;
-  if (coloration === "white") {
+  if (coloration === 'white') {
     buttonColorType = styles.btn;
-  } else if (coloration === "submit-btn") {
+  } else if (coloration === 'submit-btn') {
     buttonColorType = styles.submitBtn;
   } else {
     buttonColorType = styles.btnColor;
