@@ -46,21 +46,15 @@ const Resume = () => {
                 </div>
                 <div className={styles.resumeText}>
                   w:{' '}
-                  <a className={styles.resumeLink} href="https://www.vannya.me">
-                    www.vannya.me
+                  <a
+                    className={styles.resumeLink}
+                    href="https://www.vantabbert.com"
+                  >
+                    www.vantabbert.com
                   </a>
                 </div>
               </div>
               <div className={styles.resumeContactGroup}>
-                <div className={styles.resumeText}>
-                  <i className="fab fa-facebook" />{' '}
-                  <a
-                    className={styles.resumeLink}
-                    href="https://www.facebook.com/vannienicole"
-                  >
-                    facebook.com/vannienicole
-                  </a>
-                </div>
                 <div className={styles.resumeText}>
                   <i className="fab fa-github" />{' '}
                   <a
@@ -79,72 +73,50 @@ const Resume = () => {
                     linkedin.com/in/vannya/
                   </a>
                 </div>
-                <div className={styles.resumeText}>
-                  <i className="fab fa-twitter" />{' '}
-                  <a
-                    className={styles.resumeLink}
-                    href="https://www.twitter.com/vannyalock"
-                  >
-                    twitter.com/vannyalock
-                  </a>
-                </div>
               </div>
             </div>
             <div className={styles.resumeSection}>
               <div className={styles.resumeSubheader}>TECHNICAL SKILLS</div>
               <div className={styles.resumeSubheaderUnderline} />
               <div className={styles.resumeSectionBottomSpace}>
-                <strong>Strong:</strong> ReactJS, React Native, JavaScript,
-                HTML5, CSS3, ES6, Redux, React Router V4, Reach Router, Node.js,
-                Express, Sass, WordPress, Git/Version Control, Photoshop,
+                <strong>Strong:</strong> ReactJS, JavaScript, C#/.NET, HTML5,
+                CSS3, Redux, React Router V5, Reach Router, Azure, Node.js,
+                Express, Sass, Wordpress, Git/Version Control, Photoshop,
                 InDesign
               </div>
               <div className={styles.resumeText}>
-                <strong>Knowledgable:</strong> C#, Electron, GraphQL, NoSQL,
-                SQL, Webpack, Android, PHP, Java, C++, Sketch, Illustrator,
-                Azure, Azure functions
+                <strong>Knowledgable:</strong> Xamarin, React Native, Electron,
+                SQL, MongoDB, php, Webpack, GraphQL, Android, Java, C++,
+                Illustrator
               </div>
             </div>
             <div className={styles.resumeSection}>
               <div className={styles.resumeSubheader}>CERTIFICATIONS</div>
               <div className={styles.resumeSubheaderUnderline} />
               <div className={styles.resumeGroup}>
-                <div className={styles.resumeText}>
-                  FCC Front End Certificate
-                </div>
-                <div className={styles.resumeDate}>Feb 2018</div>
+                <div className={styles.resumeText}>CompTIA A+</div>
+                <div className={styles.resumeDate}>Mar 2021</div>
               </div>
               <div className={styles.resumeGroup}>
                 <div className={styles.resumeText}>
-                  Android Basics Nanodegree
+                  CIW User Interface Design
                 </div>
-                <div className={styles.resumeDate}>Apr 2018</div>
+                <div className={styles.resumeDate}>Sep 2020</div>
               </div>
               <div className={styles.resumeGroup}>
                 <div className={styles.resumeText}>
-                  Full Stack Dev Nanodegree
+                  Microsoft Azure Fundamentals
                 </div>
-                <div className={styles.resumeDate}>May 2018</div>
+                <div className={styles.resumeDate}>Feb 2020</div>
               </div>
               <div className={styles.resumeGroup}>
-                <div className={styles.resumeText}>
-                  Front End Dev Nanodegree
-                </div>
-                <div className={styles.resumeDate}>Jul 2018</div>
-              </div>
-              <div className={styles.resumeGroup}>
-                <div className={styles.resumeText}>React Nanodegree</div>
-                <div className={styles.resumeDate}>Aug 2018</div>
+                <div className={styles.resumeText}>CompTIA Project+</div>
+                <div className={styles.resumeDate}>Aug 2019</div>
               </div>
             </div>
             <div className={styles.resumeSection}>
               <div className={styles.resumeSubheader}>VOLUNTEER</div>
               <div className={styles.resumeSubheaderUnderline} />
-              <div className={styles.resumeGroup}>
-                <div className={styles.resumeTitle}>Mew Cat Rescue</div>
-                <div className={styles.resumeDate}>Feb 2019 - present</div>
-                <div className={styles.resumeText}>Developer and Designer</div>
-              </div>
               <div className={styles.resumeGroup}>
                 <div className={styles.resumeTitle}>Mercy House</div>
                 <div className={styles.resumeDate}>Aug 2014 - Oct 2017</div>
@@ -164,11 +136,33 @@ const Resume = () => {
               <div className={styles.resumeSubheader}>EXPERIENCE</div>
               <div className={styles.resumeSubheaderUnderline} />
               <div className={styles.resumeGroup}>
-                <div className={styles.resumePosition}>Software Engineer</div>
+                <div className={styles.resumePosition}>Software Engineer 2</div>
+                <div className={styles.resumeLocation}>
+                  CarMax - Richmond, VA
+                </div>
+                <div className={styles.resumeDate}>Nov 2019 - present</div>
+                <ul>
+                  <li>
+                    Developing a side-by-side UX experience in React/.NET
+                    replacing the legacy Order Processing experience and
+                    connecting with 30+ microservices and third-party services.
+                  </li>
+                  <li>
+                    Implemented Adobe Analytics integration to increase
+                    real-time metric gathering.
+                  </li>
+                  <li>
+                    Focus on UX accessibility and reusable design/development
+                    for increased user experience.
+                  </li>
+                </ul>
+              </div>
+              <div className={styles.resumeGroup}>
+                <div className={styles.resumePosition}>Software Engineer 3</div>
                 <div className={styles.resumeLocation}>
                   Walmart - Bentonville, AR
                 </div>
-                <div className={styles.resumeDate}>May 2018 - present</div>
+                <div className={styles.resumeDate}>May 2018 - Oct 2019</div>
                 <ul>
                   <li>
                     Lead Frontend Developer of a nine person team building a
@@ -182,12 +176,6 @@ const Resume = () => {
                     web documentation.
                   </li>
                   <li>
-                    Building modern backend APIs as Azure Functions (Node and
-                    C#) or standalone .NET Core Web APIs with extensive Swagger
-                    documentation to efficiently handle requests of up to 30,000
-                    active users.
-                  </li>
-                  <li>
                     Led 3 full-day workshops on design handoff between UX and
                     development teams. Presented talks to multiple audiences
                     promoting increased reusability in code and design.
@@ -198,8 +186,8 @@ const Resume = () => {
                     and application optimization.
                   </li>
                   <li>
-                    Mentor 5 junior developers and 1 junior designer with 1:1
-                    React teaching sessions and/or career and goal planning.
+                    Mentor 5 junior developers with 1:1 development sessions
+                    and/or career and goal planning.
                   </li>
                 </ul>
               </div>
@@ -210,12 +198,12 @@ const Resume = () => {
                 <div className={styles.resumeLocation}>
                   Tabbert Technologies, LLC - Bentonville, AR
                 </div>
-                <div className={styles.resumeDate}>Sept 2018 - present</div>
+                <div className={styles.resumeDate}>Sept 2018 - Sept 2019</div>
                 <ul>
                   <li>
                     Consulting for more than a dozen nonprofits and local
-                    businesses to create websites and applications using React,
-                    .NET Core (C#), and WordPress (JS/PHP).
+                    businesses to create websites and applications using React
+                    and WordPress (JS/PHP).
                   </li>
                   <li>
                     Focusing on reaching customers, donors, and recipients using
@@ -225,7 +213,9 @@ const Resume = () => {
                 </ul>
               </div>
               <div className={styles.resumeGroup}>
-                <div className={styles.resumePosition}>Frontend Developer</div>
+                <div className={styles.resumePosition}>
+                  Frontend Developer (Remote)
+                </div>
                 <div className={styles.resumeLocation}>
                   Chingu - Toronto, Canada
                 </div>
@@ -243,124 +233,6 @@ const Resume = () => {
                 </ul>
               </div>
             </div>
-            <div className={styles.resumeSectionBottomSpace}>
-              <div className={styles.resumeSubheader}>PROJECTS</div>
-              <div className={styles.resumeSubheaderUnderline} />
-              <div className={styles.resumeText}>
-                <a
-                  className={styles.resumeLink}
-                  href="https://chingu.io/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Chingu.io
-                </a>
-                : Front end development of the Chingu Development Network client
-                using React and interfacing with a Node/GraphQL/PostgreSQL
-                backend.
-              </div>
-              <div className={styles.resumeText}>
-                <a
-                  className={styles.resumeLink}
-                  href="https://www.npmjs.com/package/vannya-mern-app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Vannya-MERN-app
-                </a>
-                : NPM published boilerplate package for creating MERN
-                applications with auth and database connection wizard.
-              </div>
-              <div className={styles.resumeText}>
-                <a
-                  className={styles.resumeLink}
-                  href="http://ourmilitarykids.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  OurMilitaryKids
-                </a>
-                : Complete custom WordPress theme for national non-profit
-                organization that has helped over 66,000 military children.
-              </div>
-              <div className={styles.resumeText}>
-                <a
-                  className={styles.resumeLink}
-                  href="http://designsteins.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Designsteins
-                </a>
-                : Design company custom WP theme built with PHP and JS.
-              </div>
-              <div className={styles.resumeText}>
-                <a
-                  className={styles.resumeLink}
-                  href="http://iamsogal.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  IAmSoGal
-                </a>
-                : Flexible WordPress custom theme for international venture
-                capital firm.
-              </div>
-              <div className={styles.resumeText}>
-                <a
-                  className={styles.resumeLink}
-                  href="https://modmemes.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ModMemes
-                </a>
-                : Meme Library web application using MERN stack.
-              </div>
-              <div className={styles.resumeText}>
-                <a
-                  className={styles.resumeLink}
-                  href="http://tuvototuidioma.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  TuVotoTuIdioma
-                </a>
-                : WordPress based informational site for a non-profit, All
-                Voting Is Local, using PHP, jQuery and HTML5/CSS3.
-              </div>
-              <div className={styles.resumeText}>
-                <a
-                  className={styles.resumeLink}
-                  href="https://junipermail.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  JuniperMail
-                </a>
-                : Survey generation site using MERN stack with Stripe and
-                Sendgrid.
-              </div>
-              <div className={styles.resumeText}>
-                <a
-                  className={styles.resumeLink}
-                  href="https://bearbnb-06.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Bearbnb
-                </a>
-                : Clone of Airbnb using ReactJS/Redux, Express, Node.js and
-                MongoDB.
-              </div>
-              <div className={styles.resumeText}>
-                <a className={styles.resumeLink} href="vannya.me/">
-                  Vannya.me
-                </a>
-                : Personal portfolio site using React where my work can be
-                found.
-              </div>
-            </div>
             <div className="resume-education">
               <div className={styles.resumeSubheader}>EDUCATION</div>
               <div className={styles.resumeSubheaderUnderline} />
@@ -371,9 +243,11 @@ const Resume = () => {
                 <div className={styles.resumeTitle}>
                   Western Governors University
                 </div>
-                <div className={styles.resumeDate}>Expected Sept 2020</div>
+                <div className={styles.resumeDate}>Apr 2021</div>
                 <ul>
-                  <li>C#, JavaScript, Mobile Apps, SQL, UI and UX.</li>
+                  <li>
+                    Programming in C#, UX/UI Design, Software Quality Assurance
+                  </li>
                 </ul>
               </div>
               <div className={styles.resumeGroup}>
