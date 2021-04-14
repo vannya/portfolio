@@ -13,14 +13,15 @@ const About = () => {
             I'm a Full Stack Web and Mobile Application Developer creating
             accessible, mobile-ready applications with engaging user interfaces.
           </p>
-          <p>
+          <p>***Update incoming!***</p>
+          {/* <p>
             As part of an Agile international team at Walmart, I use React and
             React Native frameworks to develop internal applications to help
             Associates in their daily work environment. I partner with multiple
             development teams to support optimization, architecture,
             accessibility and specific feature development.
-          </p>
-          <p>
+          </p> */}
+          {/* <p>
             Currently, I am the Lead Frontend Developer on a technology focused
             ERP system integrating with both legacy and third party services. I
             developed the underlying structure of the application to be
@@ -46,12 +47,12 @@ const About = () => {
             Core (C#), and WordPress (JS/PHP). My focus is on reaching
             customers, donors, and recipients using modern UI/UX principles and
             SEO optimization for maximum reach.
-          </p>
-          <p>
+          </p> */}
+          {/* <p>
             When I'm not behind a computer, you can find me studying for my next
             exam or certification, exploring Arkansas' parks and trails, at the
             local gym or volunteering as a STEM mentor.
-          </p>
+          </p> */}
           <p>
             Would you like to know more? Find me on{' '}
             <a
@@ -61,7 +62,7 @@ const About = () => {
             >
               LinkedIn
             </a>
-            ,{' '}
+            {' or '}
             <a
               href="https://github.com/vannya"
               target="_blank"
@@ -69,17 +70,9 @@ const About = () => {
             >
               Github
             </a>
-            , or{' '}
-            <a
-              href="https://twitter.com/vannyalock"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </a>
             . Would you like me on your development project? Contact me at{' '}
-            <a href="mailto:van@tabberttechnologies.com">
-              van@tabberttechnologies
+            <a href="mailto:van.tabbert@gmail.com">
+              van.tabbert@gmail
             </a>{' '}
             with all the information!
           </p>

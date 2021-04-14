@@ -19,7 +19,7 @@ const Resume = () => {
           </section>
           <section className={styles.resumeHeaderRight}>
             <h1>VAN TABBERT</h1>
-            <h2>MOBILE AND WEB DEVELOPER</h2>
+            <h2>SOFTWARE ENGINEER</h2>
           </section>
         </header>
         <main className={styles.resumeBody}>
